@@ -8,4 +8,10 @@ Used Python (OpenCV+keras) to apply Convolutional Neural Network (CNN) model to 
 
 Applied PCA for dimensionality reduction; applied SVM and RF for classification to make comparison (Required)
 
-Constructed VGGNet-16 model with dropout layer preventing overfitting and trained with SGD+momentum optimizer. Defined data generator for data augmentation. Evaluated the model with the accuracy of 88%
+Constructed Xception and VGGNet-16 model and trained with SGD+momentum optimizer. Defined data generator for data augmentation. Evaluated and compared two models with the higher accuracy of 97.1%
+
+Xception:
+Selecting 4,692 images as the training set (after data augmentation), 586 images as the validation set, and 587 images as the training set. A total of 300 epochs were trained, and finally the classification accuracy was 97.10%.
+
+VGGNet-16:
+Selecting 4,692 images as the training set (after data augmentation), 586 images as the validation set, and 587 images as the training set. A total of 300 epochs were trained, and finally the classification accuracy was 32.20%.
